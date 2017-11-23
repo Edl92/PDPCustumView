@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7317F3901FC6C8300050B004 /* ExpandebleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7317F38E1FC6C8300050B004 /* ExpandebleTableViewCell.swift */; };
+		7317F3911FC6C8300050B004 /* ExpandebleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7317F38F1FC6C8300050B004 /* ExpandebleTableViewCell.xib */; };
 		73B21A881FC6C01400843CD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B21A871FC6C01400843CD3 /* AppDelegate.swift */; };
 		73B21A8A1FC6C01400843CD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B21A891FC6C01400843CD3 /* ViewController.swift */; };
 		73B21A8D1FC6C01400843CD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73B21A8B1FC6C01400843CD3 /* Main.storyboard */; };
@@ -38,6 +40,8 @@
 /* Begin PBXFileReference section */
 		302528AF31A29BFFFC7E2F0A /* Pods-PDPReatingAndReviewExpandebleLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDPReatingAndReviewExpandebleLabel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PDPReatingAndReviewExpandebleLabel/Pods-PDPReatingAndReviewExpandebleLabel.debug.xcconfig"; sourceTree = "<group>"; };
 		36CF7B7574CA79F1E57FE02E /* Pods_PDPReatingAndReviewExpandebleLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDPReatingAndReviewExpandebleLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7317F38E1FC6C8300050B004 /* ExpandebleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandebleTableViewCell.swift; sourceTree = "<group>"; };
+		7317F38F1FC6C8300050B004 /* ExpandebleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpandebleTableViewCell.xib; sourceTree = "<group>"; };
 		73B21A841FC6C01400843CD3 /* PDPReatingAndReviewExpandebleLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDPReatingAndReviewExpandebleLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B21A871FC6C01400843CD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73B21A891FC6C01400843CD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +94,41 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		7317F3921FC6C83A0050B004 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				7317F3951FC6C86D0050B004 /* Expandable */,
+				73B21AB51FC6C13300843CD3 /* CustumTableViewCell.swift */,
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
+		7317F3931FC6C84F0050B004 /* VIewController */ = {
+			isa = PBXGroup;
+			children = (
+				73B21A891FC6C01400843CD3 /* ViewController.swift */,
+			);
+			name = VIewController;
+			sourceTree = "<group>";
+		};
+		7317F3941FC6C8610050B004 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				73B21A8B1FC6C01400843CD3 /* Main.storyboard */,
+				73B21A901FC6C01400843CD3 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		7317F3951FC6C86D0050B004 /* Expandable */ = {
+			isa = PBXGroup;
+			children = (
+				7317F38E1FC6C8300050B004 /* ExpandebleTableViewCell.swift */,
+				7317F38F1FC6C8300050B004 /* ExpandebleTableViewCell.xib */,
+			);
+			name = Expandable;
+			sourceTree = "<group>";
+		};
 		73B21A7B1FC6C01300843CD3 = {
 			isa = PBXGroup;
 			children = (
@@ -116,12 +155,11 @@
 			isa = PBXGroup;
 			children = (
 				73B21A871FC6C01400843CD3 /* AppDelegate.swift */,
-				73B21A891FC6C01400843CD3 /* ViewController.swift */,
-				73B21A8B1FC6C01400843CD3 /* Main.storyboard */,
+				7317F3931FC6C84F0050B004 /* VIewController */,
+				7317F3921FC6C83A0050B004 /* CustomCell */,
+				7317F3941FC6C8610050B004 /* Storyboard */,
 				73B21A8E1FC6C01400843CD3 /* Assets.xcassets */,
-				73B21A901FC6C01400843CD3 /* LaunchScreen.storyboard */,
 				73B21A931FC6C01400843CD3 /* Info.plist */,
-				73B21AB51FC6C13300843CD3 /* CustumTableViewCell.swift */,
 			);
 			path = PDPReatingAndReviewExpandebleLabel;
 			sourceTree = "<group>";
@@ -265,6 +303,7 @@
 				73B21A921FC6C01400843CD3 /* LaunchScreen.storyboard in Resources */,
 				73B21A8F1FC6C01400843CD3 /* Assets.xcassets in Resources */,
 				73B21A8D1FC6C01400843CD3 /* Main.storyboard in Resources */,
+				7317F3911FC6C8300050B004 /* ExpandebleTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +385,7 @@
 				73B21AB61FC6C13300843CD3 /* CustumTableViewCell.swift in Sources */,
 				73B21A8A1FC6C01400843CD3 /* ViewController.swift in Sources */,
 				73B21A881FC6C01400843CD3 /* AppDelegate.swift in Sources */,
+				7317F3901FC6C8300050B004 /* ExpandebleTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,6 +634,7 @@
 				73B21AAE1FC6C01400843CD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73B21AAF1FC6C01400843CD3 /* Build configuration list for PBXNativeTarget "PDPReatingAndReviewExpandebleLabelTests" */ = {
 			isa = XCConfigurationList;
@@ -602,6 +643,7 @@
 				73B21AB11FC6C01400843CD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73B21AB21FC6C01400843CD3 /* Build configuration list for PBXNativeTarget "PDPReatingAndReviewExpandebleLabelUITests" */ = {
 			isa = XCConfigurationList;
@@ -610,6 +652,7 @@
 				73B21AB41FC6C01400843CD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
