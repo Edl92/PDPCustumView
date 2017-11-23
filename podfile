@@ -1,0 +1,5 @@
+use_frameworks!
+
+target 'PDPReatingAndReviewExpandebleLabel'
+    pod 'ExpandableLabel', '0.2.6'
+
