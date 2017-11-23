@@ -22,10 +22,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="109" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="nRf-kx-Jn7">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="109" id="YgB-DK-bUE" customClass="CustumTableViewCell" customModule="PDPReatingAndReviewExpandebleLabel" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CustomCell" rowHeight="109" id="YgB-DK-bUE" customClass="CustumTableViewCell" customModule="PDPReatingAndReviewExpandebleLabel" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="109"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YgB-DK-bUE" id="62m-gK-AAy">
@@ -54,7 +54,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="nRf-kx-Jn7" secondAttribute="bottom" id="YBs-WN-NIk"/>
-                            <constraint firstItem="nRf-kx-Jn7" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Z6s-Ek-aUm"/>
+                            <constraint firstItem="nRf-kx-Jn7" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="Z6s-Ek-aUm"/>
                             <constraint firstAttribute="trailing" secondItem="nRf-kx-Jn7" secondAttribute="trailing" id="ZoD-tV-4Tb"/>
                             <constraint firstItem="nRf-kx-Jn7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="yWI-Lw-HQ9"/>
                         </constraints>
@@ -65,7 +65,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="183" y="129"/>
+            <point key="canvasLocation" x="63" y="60"/>
         </scene>
     </scenes>
 </document>

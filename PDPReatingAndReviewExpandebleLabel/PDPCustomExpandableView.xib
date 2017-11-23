@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G1036" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PDPCustomExpandableView" customModule="PDPReatingAndReviewExpandebleLabel" customModuleProvider="target">
+            <connections>
+                <outlet property="expandableLabel" destination="k9Y-Rk-FcN" id="MWy-Uy-Yvd"/>
+                <outlet property="stackView" destination="GGd-L3-Rh1" id="uBJ-Bu-sM9"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="303"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="GGd-L3-Rh1">
+                    <rect key="frame" x="30" y="56.5" width="315" height="216.5"/>
+                </stackView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CIAO CIAO CIAO CIAO CIAO " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k9Y-Rk-FcN" customClass="ExpandableLabel" customModule="ExpandableLabel">
+                    <rect key="frame" x="20" y="10" width="172.5" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="k9Y-Rk-FcN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="DeZ-Mj-oa8"/>
+                <constraint firstAttribute="bottom" secondItem="GGd-L3-Rh1" secondAttribute="bottom" constant="30" id="E7j-fh-XwL"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="k9Y-Rk-FcN" secondAttribute="trailing" constant="20" id="Jqn-ss-0XK"/>
+                <constraint firstItem="GGd-L3-Rh1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="OE6-vB-B98"/>
+                <constraint firstItem="GGd-L3-Rh1" firstAttribute="top" secondItem="k9Y-Rk-FcN" secondAttribute="bottom" constant="30" id="VUB-B4-8PU"/>
+                <constraint firstAttribute="trailing" secondItem="GGd-L3-Rh1" secondAttribute="trailing" constant="30" id="ii1-EN-9cz"/>
+                <constraint firstItem="k9Y-Rk-FcN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="tth-Hx-qNs"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-4" y="48"/>
+        </view>
+    </objects>
+</document>

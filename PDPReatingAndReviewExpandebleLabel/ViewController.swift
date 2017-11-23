@@ -41,6 +41,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         let cell  = tableView.dequeueReusableCell(withIdentifier: "CustomCell") as! CustumTableViewCell
         
+        let viewTest = PDPCustomExpandableView(nibName: "PDPCustomExpandableView", bundle: Bundle.main)
+        
+        cell.view.addSubview(viewTest.view)
+        
         return cell
     }
 
